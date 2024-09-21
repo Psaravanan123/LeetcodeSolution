@@ -3,8 +3,7 @@ import java.util.Arrays;
 
 class Solution {
     public int countWords(String[] words1, String[] words2) {
-        ArrayList<String> list = new ArrayList<>(Arrays.asList(words1));
-        list.addAll(Arrays.asList(words2));
+      
 
         int sum = 0;
         for (String word : words1) {
